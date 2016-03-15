@@ -8,6 +8,9 @@ p {
   font-family: 'Inconsolata';
   letter-spacing: 1px; }
 
+a, nav .navbar-brand {
+  color: red; }
+
 nav {
   background: #1b1d1b;
   padding: 15px 0; }
@@ -44,5 +47,3 @@ footer {
 
 .abilities {
   list-style-type: none; }
-
-/*# sourceMappingURL=style.css.map */
