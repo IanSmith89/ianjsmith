@@ -1,26 +1,32 @@
 body {
-  background: #1c1e1c;
+  background: #242122;
   padding-top: 100px;
   font-family: 'Work Sans', sans-serif;
-  color: #fdfdfd; }
+  color: #f9f9f9; }
 
 p {
   font-family: 'Inconsolata';
   letter-spacing: 1px; }
 
 a, nav .navbar-brand {
-  color: red; }
+  color: #8dc63f; }
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
 
 nav {
-  background: #1b1d1b;
+  background: #221f20;
   padding: 15px 0; }
   nav a, nav .navbar-brand {
-    font-size: 1.65em;
     letter-spacing: 1px;
     font-weight: 300;
     color: #fdfdfd; }
   nav .navbar-brand {
-    font-weight: 700;
+    font-size: 1.65em;
+    font-weight: 600;
     letter-spacing: 5px; }
 
 footer {
@@ -30,7 +36,7 @@ footer {
 .foot {
   padding: 0;
   margin-top: 50px;
-  background: #1b1d1b; }
+  background: #221f20; }
 
 .footer-nav ul {
   padding: 0; }
