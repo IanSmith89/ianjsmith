@@ -8,7 +8,7 @@ p {
   font-family: 'Inconsolata';
   letter-spacing: 1px; }
 
-a, nav .navbar-brand {
+a {
   color: #8dc63f; }
 
 hr {
@@ -20,11 +20,12 @@ hr {
 nav {
   background: #221f20;
   padding: 15px 0; }
-  nav a, nav .navbar-brand {
-    letter-spacing: 1px;
+  nav a {
+    color: #fdfdfd;
     font-weight: 300;
-    color: #fdfdfd; }
+    letter-spacing: 1px; }
   nav .navbar-brand {
+    color: #8dc63f;
     font-size: 1.65em;
     font-weight: 600;
     letter-spacing: 5px; }
@@ -47,9 +48,3 @@ footer {
 .about-snippet {
   font-size: 1.65em;
   margin: 130px 0 160px 0; }
-
-.about-item {
-  margin-bottom: 10px; }
-
-.abilities {
-  list-style-type: none; }
