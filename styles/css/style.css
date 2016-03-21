@@ -59,7 +59,8 @@ h6 {
 .detail {
   color: #f9f9f9;
   font-size: 1.15em;
-  font-weight: 100; }
+  font-weight: 100;
+  letter-spacing: 0.75px; }
 
 nav {
   background: #221f20;
