@@ -5,17 +5,60 @@ body {
   color: #f9f9f9; }
 
 p {
-  font-family: 'Inconsolata';
+  font-family: 'Inconsolata', serif;
   letter-spacing: 1px; }
 
 a {
   color: #8dc63f; }
 
-hr {
-  border: 0;
-  height: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+h2 {
+  color: #8dc63f;
+  font-size: 1.65em;
+  letter-spacing: 3px; }
+
+h4 {
+  margin-bottom: 5px; }
+
+h5 {
+  color: #8e8d8d;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 1px;
+  margin: 0; }
+
+h6 {
+  font-size: 1em;
+  font-family: 'Inconsolata', serif;
+  margin-top: 5px; }
+
+.experience {
+  color: #f9f9f9;
+  font-size: 1.15em;
+  font-family: 'Inconsolata', serif; }
+  .experience:hover {
+    color: #8dc63f; }
+
+.skills-header {
+  font-size: 18px;
+  font-family: 'Inconsolata', serif; }
+
+.skills-section {
+  font-size: 1.15em;
+  font-weight: 100; }
+
+.title {
+  font-size: 2em; }
+
+.job-details {
+  color: #8dc63f;
+  margin-top: 10px; }
+  .job-details li {
+    margin-top: 5px; }
+
+.detail {
+  color: #f9f9f9;
+  font-size: 1.15em;
+  font-weight: 100; }
 
 nav {
   background: #221f20;
@@ -48,3 +91,6 @@ footer {
 .about-snippet {
   font-size: 1.65em;
   margin: 130px 0 160px 0; }
+
+.strike {
+  text-decoration: line-through; }
