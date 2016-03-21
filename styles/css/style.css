@@ -34,7 +34,8 @@ h6 {
 .experience {
   color: #f9f9f9;
   font-size: 1.15em;
-  font-family: 'Inconsolata', serif; }
+  font-family: 'Inconsolata', serif;
+  letter-spacing: 0.75px; }
   .experience:hover {
     color: #8dc63f; }
 
