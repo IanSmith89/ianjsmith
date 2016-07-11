@@ -1,0 +1,43 @@
+body {
+  color: #221f20;
+  background-color: #f9f9f9;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+nav {
+  text-transform: uppercase;
+  background-color: #f9f9f9;
+  box-shadow: none;
+  width: 100%;
+  height: 58px;
+  line-height: 58px;
+  border-bottom: 0.1rem solid #8e8d8d;
+  padding: 0 15px; }
+  nav a {
+    color: #221f20; }
+  nav ul a {
+    color: #221f20;
+    font-weight: 700;
+    letter-spacing: 0.05rem; }
+  nav .brand-logo {
+    color: #221f20;
+    font-weight: 700;
+    letter-spacing: 0.5rem; }
+  nav a.button-collapse i {
+    height: 58px;
+    line-height: 58px; }
+
+main {
+  flex: 1 0 auto;
+  padding: 0 30px; }
+
+footer {
+  background-color: #221f20;
+  width: 100%;
+  height: 58px; }
