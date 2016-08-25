@@ -32,6 +32,8 @@ nav {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
     letter-spacing: 0.5rem; }
+    nav .brand-logo:hover {
+      opacity: 0.76; }
   nav a.button-collapse i {
     height: 58px;
     line-height: 58px; }
@@ -68,6 +70,7 @@ footer.page-footer {
     padding: 0 15px; }
     footer.page-footer ul.left li a {
       color: #eeeeee;
+      font-size: 1rem;
       font-weight: 400;
       letter-spacing: 0.05rem; }
       footer.page-footer ul.left li a:hover {
@@ -83,4 +86,5 @@ footer.page-footer {
           opacity: 0.54; }
   footer.page-footer .footer-copyright {
     color: #9f9f9f;
-    font-family: 'Source Sans Pro', sans-serif; }
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.85rem; }
